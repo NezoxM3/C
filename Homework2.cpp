@@ -80,7 +80,6 @@ int main() {
     int fuelPerKm;
     const int tankCapacity = 300;
 
-    // Ввід
     cout << "Type a distance between A and B in km: ";
     cin >> distanceAB;
     cout << "Type a distance between B and C in km: ";
