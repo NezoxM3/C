@@ -108,3 +108,20 @@ int Fifth() {
     cout << "Сума елементів: " << sum_fifth << endl;
     return 0;
 }
+
+int main() {
+    int choice;
+    cout << "Виберіть завдання (1-5): ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1: First(); break;
+        case 2: Second(); break;
+        case 3: Third(); break;
+        case 4: Fourth(); break;
+        case 5: Fifth(); break;
+        default: cout << "Вибери від 1 до 5" << endl;
+    }
+
+    return 0;
+}
